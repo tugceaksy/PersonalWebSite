@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+
+}
+.box li a{
+   color: rgb(255, 255, 255);
+   font-size: 60px;
+   transition: all ease-in-out 250ms;
+
+}
+.box li a:hover{
+    color:gray;
+}
+.box{
+    width: 500px;
+    background-color: lightpink;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+   cursor: pointer;}
+    
+.box img:hover{
+    transform: scale(0.9);
+}
+  .box button{
+     background-color: white;
+     border-color: hotpink;
+     width: 400;
+    height: 400;
+   }
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100 ;
+
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing:3;
+}
+.box p{
+    text-align: justify;
+
+}
